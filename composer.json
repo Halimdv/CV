@@ -1,0 +1,28 @@
+{
+    "name": "halim/cv",
+    "authors": [
+        {
+            "name": "Halimdv",
+            "email": "deville.halim@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "aterrien/jquery-knob",
+                "version": "master",
+                "source": {
+                    "url": "https://github.com/aterrien/jQuery-Knob",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
+    "require": {
+        "components/bootstrap": "^3.3",
+        "aterrien/jquery-knob": "master"
+    },
+    "minimum-stability": "dev"
+}

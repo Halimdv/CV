@@ -1,0 +1,32 @@
+body {
+	font-family: "Droid Sans";
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Hind";
+}
+
+h1,h3 {
+	text-transform: uppercase;
+}
+.greyBg {
+	background-color: #eee;
+}
+
+.whiteBg{
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.5) 0 0 10px 2px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 10px 2px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 10px 2px;
+	-o-box-shadow: rgba(0, 0, 0, 0.5) 0 0 10px 2px;
+	border-radius: 2px;
+}
+
+.avatar {
+	transition: all 1s linear;
+	opacity: 1;
+}
+
+.avatar:hover {
+	opacity: 0.8;
+}
